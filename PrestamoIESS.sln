@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelos", "Modelos\Modelos.csproj", "{724238B0-BAB9-453B-9BC8-F9C98555E20C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consola", "Consola\Consola.csproj", "{A3F9D11F-CECD-42E4-971B-A93B9D128B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModeloDB", "ModeloDB\ModeloDB.csproj", "{1FE413A7-075D-4E79-A988-591C85034827}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{724238B0-BAB9-453B-9BC8-F9C98555E20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{724238B0-BAB9-453B-9BC8-F9C98555E20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{724238B0-BAB9-453B-9BC8-F9C98555E20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F9D11F-CECD-42E4-971B-A93B9D128B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F9D11F-CECD-42E4-971B-A93B9D128B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F9D11F-CECD-42E4-971B-A93B9D128B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F9D11F-CECD-42E4-971B-A93B9D128B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE413A7-075D-4E79-A988-591C85034827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE413A7-075D-4E79-A988-591C85034827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE413A7-075D-4E79-A988-591C85034827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE413A7-075D-4E79-A988-591C85034827}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
