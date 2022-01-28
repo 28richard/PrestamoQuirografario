@@ -8,11 +8,12 @@ namespace Modelo.Entidades
 {
     public class FondosCesantia
     {
+        public int FondosCesantiaId { get; set; }
         public float PorcentajeFC { get; set; }
         public float AportacionFC { get; set; }
 
         //Relacion con Aportaciones
-        public Aportaciones Salario { get; set; }
-        public int ApotacionesId { get; set; }
+        public Aportaciones Aportaciones { get; set; }
+        public int AportacionesId { get; set; }
     }
 }

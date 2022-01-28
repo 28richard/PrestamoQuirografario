@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelos", "Modelos\Modelos.csproj", "{724238B0-BAB9-453B-9BC8-F9C98555E20C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modelos", "Modelos\Modelos.csproj", "{724238B0-BAB9-453B-9BC8-F9C98555E20C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consola", "Consola\Consola.csproj", "{A3F9D11F-CECD-42E4-971B-A93B9D128B93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consola", "Consola\Consola.csproj", "{A3F9D11F-CECD-42E4-971B-A93B9D128B93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModeloDB", "ModeloDB\ModeloDB.csproj", "{1FE413A7-075D-4E79-A988-591C85034827}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModeloDB", "ModeloDB\ModeloDB.csproj", "{1FE413A7-075D-4E79-A988-591C85034827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebIess2", "WebIess2\WebIess2.csproj", "{CE0BECD5-065F-4E3F-BFCF-C8FE78BBB476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{FF86F853-6884-487C-82CC-FB8508CAE991}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{1FE413A7-075D-4E79-A988-591C85034827}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FE413A7-075D-4E79-A988-591C85034827}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FE413A7-075D-4E79-A988-591C85034827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0BECD5-065F-4E3F-BFCF-C8FE78BBB476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0BECD5-065F-4E3F-BFCF-C8FE78BBB476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0BECD5-065F-4E3F-BFCF-C8FE78BBB476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0BECD5-065F-4E3F-BFCF-C8FE78BBB476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF86F853-6884-487C-82CC-FB8508CAE991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF86F853-6884-487C-82CC-FB8508CAE991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF86F853-6884-487C-82CC-FB8508CAE991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF86F853-6884-487C-82CC-FB8508CAE991}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

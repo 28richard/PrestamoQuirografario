@@ -15,5 +15,9 @@ namespace Modelo.Entidades
         public string Direccion { get; set; }
         public int Telefono { get; set; }
         public string Correo { get; set; }
+
+        //relacion uno a n con aportaciones
+        public IEnumerable<Aportaciones> ListaAportaciones { get; set; }
+        
     }
 }

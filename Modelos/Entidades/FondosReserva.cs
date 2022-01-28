@@ -8,11 +8,12 @@ namespace Modelo.Entidades
 {
     public class FondosReserva
     {
+        public int FondosReservaId { get; set; }
         public float PorcentajeFR { get; set; }
         public float AportacionFR { get; set; }
 
         //Relacion con Aportaciones
-        public Aportaciones Salario { get; set; }
+        public Aportaciones Aportaciones { get; set; }
         public int ApotacionesId  { get; set; }
     }
 }

@@ -17,8 +17,7 @@ namespace Modelo.Entidades
         public DateTime FechaPago { get; set; }
 
         //Relacion con Solicitante
-        public Solicitante Nombre { get; set; }
-        public Solicitante Apellido { get; set; }
+        public Solicitante Solicitante { get; set; }
         public int SolicitanteId { get; set; }
     }
    

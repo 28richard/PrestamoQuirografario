@@ -8,16 +8,20 @@ namespace Modelo.Entidades
 {
     public class Garantias
     {
+        public int GarantiasId { get; set; }
         public int CantidadAportaciones { get; set; }
         public float TotalGarantias { get; set; }
 
         //Relacion con Aportaciones
-        public Aportaciones salario { get; set; }
+        public Aportaciones Aportaciones { get; set; }
+  
 
         //Relacion fondos de reserva
-        public FondosReserva AportacionFR { get; set; }
+        public FondosReserva FondosReserva { get; set; }
+ 
 
         //Relacion fondos de cesantia
-        public FondosReserva AportacionFC { get; set; }
+        public FondosCesantia fondosCesantia { get; set; }
+
     }
 }
