@@ -15,5 +15,7 @@ namespace Modelo.Entidades
         //Relacion con Aportaciones
         public Aportaciones Aportaciones { get; set; }
         public int AportacionesId { get; set; }
+
+        public Garantias Garantias { get; set; }
     }
 }

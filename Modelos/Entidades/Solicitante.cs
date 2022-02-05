@@ -18,6 +18,9 @@ namespace Modelo.Entidades
 
         //relacion uno a n con aportaciones
         public IEnumerable<Aportaciones> ListaAportaciones { get; set; }
-        
+
+        //relacion con prestamo
+        public Prestamo Prestamo { get; set; }
+        public int PrestamoId { get; set; }
     }
 }

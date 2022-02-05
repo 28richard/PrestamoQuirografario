@@ -21,5 +21,17 @@ namespace Modelo.Entidades
         //Relacion con solicitante 
         public Solicitante Solicitante { get; set; }
         public int SolicitanteId { get; set; }
+
+        //relacion con fondos de cesantia
+        public FondosCesantia FondosCesantia { get; set; }
+      //  public int FondosCesantiaId { get; set; }
+
+        //relacion con fondos de reserva
+        public FondosReserva FondosReserva { get; set; }
+       // public int FondosReservaId { get; set; }
+
+        //relacion con fondos de cesantia
+        public Garantias Garantias { get; set; }
+        //public int GarantiasId { get; set; }
     }
 }

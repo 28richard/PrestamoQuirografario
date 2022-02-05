@@ -10,7 +10,7 @@ using ModeloDB;
 namespace ModeloDB.Migrations
 {
     [DbContext(typeof(Repositorio))]
-    [Migration("20220128022024_InicioIESS")]
+    [Migration("20220128171623_InicioIESS")]
     partial class InicioIESS
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

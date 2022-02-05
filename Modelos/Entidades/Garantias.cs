@@ -21,7 +21,7 @@ namespace Modelo.Entidades
  
 
         //Relacion fondos de cesantia
-        public FondosCesantia fondosCesantia { get; set; }
+        public FondosCesantia FondosCesantia { get; set; }
 
     }
 }
